@@ -1,0 +1,14 @@
+.InfoBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 100px); /* Adjust height if needed */
+    text-align: center;
+    margin-top: -20px; /* Adjust to reduce the gap */
+}
+
+.InfoBox .MuiCard-root {
+    width: 345px;
+    max-width: 100%;
+}
